@@ -45,6 +45,6 @@ setup(name='tarsnapper',
       url='http://github.com/miracle2k/tarsnapper',
       license='BSD',
       packages=['tarsnapper'],
-      install_requires = ['argparse>=1.1', 'pyyaml>=3.09', 'python-dateutil>=2.4.0', 'pexpect>=3.1'],
+      install_requires = ['argparse>=1.1; python_version<"3.2"', 'pyyaml>=3.09', 'python-dateutil>=2.4.0', 'pexpect>=3.1'],
       **kw
 )
